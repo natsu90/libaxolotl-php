@@ -26,6 +26,7 @@ use Libaxolotl\ratchet\AliceAxolotlParameters;
 use Libaxolotl\ratchet\SymmetricAxolotlParameters;
 use Libaxolotl\util\Medium;
 use Libaxolotl\logging\Log;
+use Libaxolotl\ratchet\AliceBuilder;
 
 class SessionBuilder
 {

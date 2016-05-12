@@ -37,6 +37,9 @@ use Libaxolotl\state\SessionStore;
 use Libaxolotl\state\SignedPreKeyStore;
 use Libaxolotl\util\ByteUtil;
 use Libaxolotl\util\Pair;
+
+use Libaxolotl\exceptions\DuplicateMessageException;
+
 //require_once "/state/SessionState/UnacknowledgedPreKeyMessageItems.php";
 class SessionCipher
 {
