@@ -9,7 +9,9 @@ use Libaxolotl\exceptions\InvalidVersionException;
 use Libaxolotl\exceptions\LegacyMessageException;
 use Libaxolotl\IdentityKey;
 
-require_once __DIR__.'/../protocol/WhisperMessage.php';
+use Libaxolotl\ecc\Curve;
+use Whispertext\PreKeyWhisperMessage as Textsecure_PreKeyWhisperMessage;
+
 
 class PreKeyWhisperMessage extends CiphertextMessage
 {

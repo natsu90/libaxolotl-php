@@ -6,6 +6,7 @@ use Libaxolotl\ecc\ECKeyPair;
 use Libaxolotl\ecc\ECPrivateKey;
 use Libaxolotl\ecc\ECPublicKey;
 use Libaxolotl\exceptions\InvalidKeyException;
+use Localstorage\PreKeyRecordStructure as Textsecure_PreKeyRecordStructure;
 
 class PreKeyRecord
 {
